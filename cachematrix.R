@@ -10,7 +10,7 @@
 ## This function, makeCacheMatrix, takes in an invertible matrix
 ## calculates the inverse, and saves the value, which is 
 ## later retrievable via a function call from 
-makeCacheMatrix <- function(x = numeric()) {
+makeCacheMatrix <- function(x = matrix()) {
     ## initialize mtx
     mtx <- NULL
     ## print(environment())
